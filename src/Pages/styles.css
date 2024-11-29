@@ -1,0 +1,10 @@
+.select {
+    height: 35px;
+    /* Adjust height to fit the dropdown trigger */
+  }
+  
+  .select .option {
+    max-height: 150px; /* Limit the height of options */
+    overflow-y: auto;  /* Add scroll if options exceed the height */
+    border: 1px solid red
+  }

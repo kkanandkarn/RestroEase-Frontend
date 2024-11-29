@@ -1,0 +1,67 @@
+/* Add this CSS to your global styles */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .notification-modal {
+    max-height: 20rem;
+    border: 1px solid #e5e7eb;
+    transition: transform 0.3s ease-in-out;
+    background-color: #ffffff; 
+    z-index: 1
+  }
+  
+  .notification-item {
+    transition: background-color 0.2s;
+  }
+  .notification-item span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .notification-item .text-xs {
+    margin-top: 0.25rem;
+  }
+  
+  .modal-header {
+    border-bottom: 1px solid #e5e7eb;
+    background-color: #ffffff;
+  }
+
+  .profile-modal {
+   
+    border: 1px solid #e5e7eb;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .profile-item {
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  
+  

@@ -1,0 +1,23 @@
+/* Custom scrollbar styles for content-container */
+.content-container {
+    overflow: auto;
+  }
+  
+  .content-container::-webkit-scrollbar {
+    width: 8px; /* Adjust the width as needed */
+  }
+  
+  .content-container::-webkit-scrollbar-track {
+    background: #504e4e; /* Track color */
+    border-radius: 8px; /* Border radius for track */
+  }
+  
+  .content-container::-webkit-scrollbar-thumb {
+    background: #888; /* Thumb color */
+    border-radius: 8px; /* Border radius for thumb */
+  }
+  
+  .content-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb color on hover */
+  }
+  

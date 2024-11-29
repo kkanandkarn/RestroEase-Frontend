@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: "Poppins", "Sans-serif";
+}
+.modal-slide-up {
+  animation: slideUp 0.5s ease-out forwards;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 500px; /* Adjust as needed */
+  z-index: 1000;
+  background: white; /* Adjust modal background */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translate(-50%, 100%);
+  }
+  to {
+    transform: translate(-50%, 0);
+  }
+}
+
+
+:root {
+  --color-primary: #e91e63
+}
